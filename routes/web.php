@@ -6,6 +6,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/hello', function(){
-    return view('Laravelを起動しました！');
+Route::get('/hello', function () {
+    return view('hello');
 });
